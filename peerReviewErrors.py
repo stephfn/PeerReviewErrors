@@ -52,5 +52,5 @@ while playAgain = 'yes' or playAgain = 'y':
 	print('Do you want to play again? (yes or no)')
 	playAgain = input()
 	if playAgain == "no":
-		print("Thanks for planing")
+		print("Thanks for playing")
 
