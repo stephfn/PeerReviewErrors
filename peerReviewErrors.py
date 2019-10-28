@@ -23,7 +23,7 @@ def chooseCave():
 		print('Which cave will you go into? (1 or 2)')
 		cave = input()
 
-	return caves
+	return cave
 
 def checkCave(chosenCave):
 	print('You approach the cave...')
@@ -31,7 +31,7 @@ def checkCave(chosenCave):
 	time.sleep(2)
 	print('It is dark and spooky...')
 	#sleep for 2 seconds
-	time.sleep(3)
+	time.sleep(2)
 	print('A large dragon jumps out in front of you! He opens his jaws and...')
 	print()
 	#sleep for 2 seconds
@@ -46,7 +46,7 @@ def checkCave(chosenCave):
 playAgain = 'yes'
 while playAgain == 'yes' or playAgain == 'y':
 	displayIntro()
-	caveNumber = choosecave()
+	caveNumber = chooseCave()
 	checkCave(caveNumber)
     
 	print('Do you want to play again? (yes or no)')
