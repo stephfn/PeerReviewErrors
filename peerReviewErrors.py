@@ -5,6 +5,8 @@
 # Creation Date: <date>
 # Below is a simple program with 10 issues (some are syntax errors and some are logic errors.  You need to identify the issues and correct them.
 
+# Will peer review as if it were posted by someone else
+
 import random
 import time
 
